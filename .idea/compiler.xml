@@ -9,5 +9,6 @@
         <module name="A03_CS3318" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel target="15" />
   </component>
 </project>
