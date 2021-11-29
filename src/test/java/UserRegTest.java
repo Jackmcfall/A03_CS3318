@@ -11,4 +11,10 @@ public class UserRegTest {
 
     }
 
+    @Test
+    public void getUserPassword(){
+        UserReg password = new UserReg();
+        assertEquals(0.0, password.getUserPassword(), 0.0);
+    }
+
 }
