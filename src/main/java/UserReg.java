@@ -1,14 +1,21 @@
 public class UserReg {
-    public UserReg email;
-    public UserReg password;
+    public String email;
+    public String password;
 
-    public double getEmail(){
+    public int getEmail(){
+        return -1;
+    }
+
+    public void setEmail(String email){
         this.email = email;
-        return 0;
     }
 
-    public double getUserPassword(){
-        this.password = password;
-        return 0;
+    public int getUserPassword(){
+        return -1;
     }
+
+    public void setPassword(String password){
+        this.password = password;
+    }
+
 }
