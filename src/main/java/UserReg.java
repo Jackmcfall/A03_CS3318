@@ -3,7 +3,7 @@ public class UserReg {
     public String password;
 
     public int getEmail(){
-        return -1;
+        return 0;
     }
 
     public void setEmail(String email){
@@ -11,7 +11,7 @@ public class UserReg {
     }
 
     public int getUserPassword(){
-        return -1;
+        return 0;
     }
 
     public void setPassword(String password){
